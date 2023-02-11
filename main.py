@@ -2,6 +2,7 @@ import requests
 import streamlit as st
 from streamlit_extras.colored_header import colored_header
 
+
 api_key = "PEaNRU8XXspffKpqulJGid5bX3KudesOXXR3zqFQ"
 url = "https://api.nasa.gov/planetary/apod?api_key=PEaNRU8XXspffKpqulJGid5bX3KudesOXXR3zqFQ"
 response = requests.get(url)
